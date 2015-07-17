@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<title>OOP Task 5.2</title>
+</head>
+<body>
+	<h3>МРЭО </h3>
+<form>
+       
+	<p>* Вес транспортного средства:
+		<input type="text" name="weight" size="8" placeholder="в килограммах"/></p>
+	<p>* Объем двигателя:
+		<input type="text" name="motor_v" size="8" placeholder="в литрах"/></p> 
+   	<p>* Вес транспортного средства с полной загрузкой:
+		<input type="text" name="weightFull" size="8" placeholder="в килограммах"/></p>
+	<p>Габариты транспортного средства:
+		<input type="text" name="size" size="8" placeholder="в метрах"/></p>
+	<p>Вид топлива
+		<select name="petrol">
+			<option>----------</option>
+			<option value="1">Бензин</option>
+			<option value="2">Дизель</option>
+			<option value="3">Газ</option>
+		</select></p>
+	<p>Тип коробки передач:
+		<select name="transmission">
+			<option>----------</option>
+			<option value="1">Автоматическая</option>
+			<option value="2">Ручная</option>
+		</select></p> 
+	<p>Количество пассажиров:
+		<input type="text" name="passengers" size="16" placeholder="в местах для сидения"/></p>
+	<p>Тип кузова:
+		<input type="text" name="passengers" size="8" placeholder="пример: купе"/></p>
+	<p>Количество осей:
+		<input type="text" name="sumAxles" placeholder="в штуках"></p>
+	<p>Допустимый вес прицепа:
+		<input type="text" name="trailerWeight" placeholder="в килограммах"></p>
+	<p> <b>* - Поля обязательные к заполнению </b></p>
+	<p><input id="reset" type="reset" name="Reset" value="Очистить форму"></br>
+ </form>
+<button id="enter"> Рассчитать налог</button>
+<p id="result"></p>
+
+</body>
+</html>
